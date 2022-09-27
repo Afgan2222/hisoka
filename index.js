@@ -325,8 +325,8 @@ async function startHisoka() {
         hisoka.send5ButMsg = (jid, text = '' , footer = '', but = []) =>{
         let templateButtons = but
         var templateMessage = {
-        text: text,
-        footer: footer,
+        text: WhatsApp Bot MD,
+        footer: Bot By Afgann,
         templateButtons: templateButtons
         }
         hisoka.sendMessage(jid, templateMessage)
